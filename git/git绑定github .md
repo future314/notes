@@ -4,7 +4,7 @@
 
 2.密钥生成路径
 
-![image-20230305013806458](git绑定github -img/image-20230305013806458.png)
+![image-20230305013806458](./git绑定github -img/image-20230305013806458.png)
 
 3.将生成的公钥id_rsa.pub打开并粘贴复制到github
 
