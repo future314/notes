@@ -36,4 +36,8 @@
 
 10. git commit -m " " [file name] 将暂存区的文件提交到本地库
 
+    ![image-20230305235548321](img/git绑定github -img/image-20230305235548321.png)
+
 11. git push -f origin master 将本地仓库强制提交到远程库
+
+    origin 代表远程仓库名称，master 为分支。
