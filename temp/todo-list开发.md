@@ -19,3 +19,28 @@ public class Main {
     }
 }
 ```
+
+
+```python
+from java.io import ByteArrayInputStream
+from java.io import InputStream
+from java.io import InputStreamReader
+from java.lang import String
+from java.lang import StringBuilder
+from array import array
+
+byteArray = "Hello, Jython!".encode('utf-8')
+inputStream = ByteArrayInputStream(byteArray)
+inputStreamReader = InputStreamReader(inputStream)
+
+stringBuilder = StringBuilder("ab")
+
+charBuf = array('c', [' '] * 1024)
+count = inputStreamReader.read(charBuf)
+while count > 0:
+    stringBuilder.append(charBuf, 0, count)
+    count = inputStreamReader.read(charBuf)
+
+print(stringBuilder.toString())
+
+```
