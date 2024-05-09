@@ -12,3 +12,8 @@
 
 ![image-20230307001453025](img/windows与linux互相访问文件-img/image-20230307001453025.png)
 
+
+### ` wsl --shutdown` 关闭子系统
+
+### `wsl --list --verbose` 查看系统运行状态
+

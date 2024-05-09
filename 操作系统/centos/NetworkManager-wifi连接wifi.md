@@ -20,3 +20,5 @@ Unable to connect to any wifi with NetworkManager due to error: Secrets were req
 后面重启电脑解决了问题，可能是只需要重启 NetworkManager-wifi服务就能生效。
 
 [(126条消息) CentOS 7 最小化安装 自动连接 WiFi_centos7 wifi_徐晓伟的博客-CSDN博客](https://blog.csdn.net/qq_32596527/article/details/93230855)
+
+nmcli dev wifi connect CMCC-ECMq password nxdhzv6k
